@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tollplus</title>
+    <script>
+       
+    </script>
+    <style>
+        .header {
+            background-color:darkblue;
+                color:white; 
+                text-align:center;
+                font-style:normal;
+                font-size:20px;
+        }
+        .footer{
+            position:fixed;
+            left:0px;
+            width:100%;
+            bottom:0px;
+            background-color:darkblue;
+            text-align:center;
+            color:white;
+        }
+        img {
+            
+            padding: 100px;
+            width: 300px;
+        }
+        form {
+            
+            padding-top:100px;
+            margin-left: 50px;
+        }
+        #abc{
+            border:5px solid black;
+           
+              
+         
+        }
+
+      
+    </style>
+ </head>
+<body>
+
+    <header class="header">
+        Tollplus
+    </header>
+    <div class="footer">
+        <p>
+            Tollplus
+            <br>
+            <a href="www.tollplu.com" style="color:white">www.tollplus.com</a>
+        </p>
+    </div>
+
+    <img src="C:\Users\pnimmagadda\Desktop\logo_header.png" height="300" align="left" />
+
+
+    <form method="post" action="www.tollplus.com" onsubmit="return website()">
+        <input type="button" id="abc" name="abc" value="click" />
+
+
+        <table border="0">
+            <tr>
+                <th>FirstName</th>
+                <td><input type="text" name="fname" id="fname" value="" style="border-color:blue;border-width:2px; width:200px" required /></td>
+
+
+                <th>LastName</th>
+                <td><input type="text" name="lname" id="lname" value="" style="border-color:blue;border-width:2px; width:200px" required /></td>
+            </tr>
+
+            <tr>
+
+                <th>MobileNo</th>
+                <td><input type="tel" name="phone" id="phone" value="" maxlength="10" style="border-color:blue;border-width:2px;width:200px" required /></td>
+
+
+
+                <th>AltMobileNo</th>
+                <td><input type="tel" name="phone1" id="phone1" value="" maxlength="10" style="border-color:blue;border-width:2px;width:200px" required /></td>
+            </tr>
+
+            <tr>
+                <th>EmailId</th>
+                <td colspan="4"><input type="text" name="mail" id="mail" size="100" style="border-color:blue;border-width:2px;width:100%" required /></td>
+            </tr>
+
+
+
+
+
+
+            <tr>
+                <th>Gender</th>
+
+                <td colspan="4" align="left">
+                    <input type="radio" name="rdo1" id="rdo1" />Male
+
+
+                    <input type="radio" name="rdo1" id="rdo1" />Female
+
+
+                    <input type="radio" name="rdo1" id="rdo1" />Other
+                </td>
+
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>

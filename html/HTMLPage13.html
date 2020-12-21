@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>find characters in a stirng</title>
+    
+</head>
+<body>
+    string: <input type="text" id="txt" name="txt" value="tollplus" />
+    toFind<input type="text" id="txt1" name="txt1" value="us" />
+    <input type="button" id="btn" name="btn" onclick="string()" value="search" />
+    <script>
+        function string() {
+            var string = document.getElementById("txt").innerHTML.value;
+            var toFind = document.getElementById("txt1").innerHTML.value;
+            var find = new RegExp(toFind);
+            alert(find.test(string));
+        }
+    </script>
+</body>
+</html>

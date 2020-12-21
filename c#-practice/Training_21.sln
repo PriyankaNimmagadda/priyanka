@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F54F0FC9-BAC2-4981-A32B-D4BCA3C9E582}"
+	ProjectSection(SolutionItems) = preProject
+		Array.html = Array.html
+		date.html = date.html
+		HTMLPage1.html = HTMLPage1.html
+		HTMLPage10.html = HTMLPage10.html
+		HTMLPage11.html = HTMLPage11.html
+		HTMLPage12.html = HTMLPage12.html
+		HTMLPage13.html = HTMLPage13.html
+		HTMLPage14.html = HTMLPage14.html
+		HTMLPage15.html = HTMLPage15.html
+		HTMLPage2.html = HTMLPage2.html
+		HTMLPage3.html = HTMLPage3.html
+		HTMLPage6.html = HTMLPage6.html
+		HTMLPage7.html = HTMLPage7.html
+		HTMLPage8.html = HTMLPage8.html
+		HTMLPage9.html = HTMLPage9.html
+		id.html = id.html
+		onpresskey.html = onpresskey.html
+		Script4.js = Script4.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89A52D75-60C6-4B0A-80D7-98F9CDA301C7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,68 @@
+create proc kln
+@vendorid INT, 
+@vendorname NVARCHAR(50),
+@vendorcity NVARCHAR(50),
+@vendorstate  NVARCHAR(50)
+as
+begin
+   -- SET NOCOUNT ON;
+
+	INSERT INTO mcnvendors
+(vendorid, vendorname,vendorcity,vendorstate)
+VALUES
+(@vendorid, @vendorname, @vendorcity, @vendorstate)
+end
+
+exec kln  25,'karthik','hyb','telangana'
+=========================================================================
+
+CREATE PROCEDURE mki
+AS
+BEGIN
+-- SET NOCOUNT ON added to prevent extra result sets from
+-- interfering with SELECT statements.
+--SET NOCOUNT ON;
+ -- Insert statements for procedure here
+SELECT * FROM mcnvendors
+END
+
+
+EXEC mki
+=========================================================================
+
+
+CREATE PROCEDURE nji
+-- Add the parameters for the stored procedure here
+@vendorId int
+AS
+BEGIN
+-- SET NOCOUNT ON added to prevent extra result sets from
+-- interfering with SELECT statements.
+SET NOCOUNT ON;
+ -- Insert statements for procedure here
+DELETE mcnvendors WHERE vendorid = @vendorId
+END
+
+========================================================================
+create proc kln1
+@vendorid INT, 
+@vendorname NVARCHAR(50),
+@vendorcity NVARCHAR(50),
+@vendorstate  NVARCHAR(50)
+as
+begin
+    SET NOCOUNT ON;
+	BEGIN TRAN
+  BEGIN TRY
+
+	INSERT INTO mcnvendors
+        (vendorid, vendorname,vendorcity,vendorstate)
+  VALUES
+    (@vendorid, @vendorname, @vendorcity, @vendorstate)
+    COMMIT TRANSACTION
+END TRY
+BEGIN CATCH
+ROLLBACK TRANSACTION
+END CATCH
+end
+=======================================================================

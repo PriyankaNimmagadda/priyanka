@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>timer</title>
+    <script>
+        var count = 0;
+        function starttimer() {
+            count++;
+            document.getElementById("txt").innerHTML = count;
+            t = setTimeout("starttimer()", 1000);
+        }
+        function stoptimer() {
+            count = 0;
+            clearTimeout(t);
+        }
+    </script>
+</head>
+<body>
+    <label id="txt" >0</label>
+    <input type="button" id="txt1" onclick="starttimer()" value="start" />
+    <input type="button" id="txt2" onclick="stoptimer()" value="stop" />
+</body>
+</html>

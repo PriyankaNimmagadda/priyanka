@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function sum() {
+            var a = document.getElementById("txtName1").value;
+            var b = document.getElementById("txtName2").value;
+            var result = parseInt(a) + parseInt(b);
+            alert(result);
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="txtName1" name="txtName1" />
+    <input type="text" id="txtName2" name="txtName2" />
+    <input type="button" id="btn"  value="add" onclick="sum()"
+ />
+
+</body>
+</html>

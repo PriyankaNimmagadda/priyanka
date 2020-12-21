@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>nav bar</title>
+    <script>
+        function range() {
+            document.getElementById("rng").value = document.getElementById("nbr").value;
+        }
+
+        function DrawLines() {
+
+
+
+            var context = document.getElementById("Canvas1").getContext("2d");
+
+            context.beginPath();
+            context.moveTo(50, 60);
+            context.lineTo(50, 100);
+            context.lineTo(200, 100);
+            context.lineTo(200, 50);
+            context.lineTo(70, 25);
+            context.closePath();
+            context.stroke();
+            context.strokeStyle = "blue";
+            context.fillStyle = "green";
+        }
+
+        function DrawRectangle() {
+            var context = document.getElementById('myCanvas').getContext('2d');
+            context.beginPath(); context.lineWidth = "5";            
+            context.strokeStyle = "green";
+            context.strokeRect(150, 100, 100, 100);
+            context.globalAlpha = 0.5;
+            context.fillStyle = "red";
+            context.fillRect(200, 150, 100, 100);
+        }</script>
+   
+
+  
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                padding: 50px 50px 50px 50px;
+            }
+
+                li a:hover {
+                    background-color: gray;
+                }
+    </style>
+</head>
+<body>
+    <header style="background-color:black; width:100%">
+
+        <ul>
+            <li><a href="#" style="color:white">HOME</a></li>
+
+            <li><a href="#" style="color:white">CONTACT</a></li>
+
+            <li><a href="#" style="color:white">CONTACT</a></li>
+
+            <li>
+                <a href="#" style="color:white">ABOUTUS</a>
+            </li>
+
+        </ul>
+    </header>
+    <pre>
+ color:<input type="color" name="clr" id="clr" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+number:<input type="number" id="nbr" name="nbr" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Range:<input type="number" name="rng" id="rng" min="1" max="9" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+month:<input type="month" name="mnt" id="mnt" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+date:<input type="date" name="dte" id="dte" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dateTime:<input type="datetime" name="dte1" id="dte1" />
+
+
+
+
+
+
+
+
+
+
+
+time:<input type="time" name="tme" id="tme" />
+
+
+
+
+
+
+
+Datetime-local<input type="datetime-local" name="dtl" id="dtl" />
+
+
+
+
+
+
+
+
+
+
+
+FileUpload:<input type="file" name="fle" id="fle" multiple />
+
+
+
+
+
+
+
+Range:<input type="range" name="rng" id="rng" min="1" max="10" step="2" onkeyup="range()" />
+
+
+
+Number:<input type="number" id="nbr" name="nbr" />
+
+
+
+    <canvas id="Canvas1" width="300" height="200" style="border:1px solid blue;">
+            </canvas>     <br />     <input type="button" onclick="DrawLines()" value="Draw Line" />
+
+
+
+<canvas id="myCanvas" width="578" height="250">     </canvas> 
+ 
+    <br />     <input type="button" onclick="DrawRectangle()" value="Draw Rectangles" />
+
+ 
+ 
+</pre>
+</body>
+</html>

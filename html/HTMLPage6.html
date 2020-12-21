@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script  >
+        
+
+       function add() {
+        var a = document.getElementById("txta").value;
+        var b = document.getElementById("txtb").value;
+            var sum = parseInt(a) + parseInt(b);
+            return sum;
+            
+        }
+        function sub() {
+        var a = document.getElementById("txta").value;
+        var b = document.getElementById("txtb").value;
+            var sub = parseInt(a)-parseInt(b);
+            return sub;
+
+           
+        }
+        function mul() {
+        var a = document.getElementById("txta").value;
+        var b = document.getElementById("txtb").value;
+            var mul =parseInt(a)*parseInt(b);
+            return mul;
+        }
+        function div() {
+        var a = document.getElementById("txta").value;
+        var b = document.getElementById("txtb").value;
+            var result =parseInt(a)/parseInt(b);
+            return result;
+        }
+        function percentage() {
+        var a = document.getElementById("txta").value;
+        var b = document.getElementById("txtb").value;
+            var percentage = parseInt(a)%parseInt(b)
+            return percentage;
+        }
+       
+    </script>
+</head>
+<body>
+    <input type="text" name="txta" id="txta" />
+<input type="text" name="txtb" id="txtb"/> 
+    <input type="button" id="btntest" onclick="alert(add())" value="add" />
+    <input type="button" id="btntest1" onclick="alert(sub())" value="sub" />
+    <input type="button" id="btntest2" onclick="alert(mul())" value="mul" />
+    <input type="button" id="btntest3" onclick="alert(div())" value="div" />
+    <input type="button" id="btntest4" onclick="alert(percentage())" value="percentge" />
+
+</body>
+</html>

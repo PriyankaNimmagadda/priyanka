@@ -1,0 +1,67 @@
+=========================================================CTE with UNION==========================================================================
+
+ with empCte (empId,empFirstName)
+  as
+  (
+	select empId,empFirstName from Employees
+	group by empId,empFirstName 
+  )
+  select *from empCte
+  union 
+  (
+  select EmpId,EmpLocation from Emp_Details
+  group by EmpId,EmpLocation
+  )
+
+======================================================IF LOOP==================================================================================
+
+DECLARE @pdId int
+SET @pdId = 11 -- change here
+
+IF (EXISTS(SELECT PersonalDetailsId FROM PersonalDetails WHERE PersonalDetailsId = @pdId))
+
+BEGIN
+
+	SELECT * FROM PersonalDetails WHERE PersonalDetailsId = @pdId
+END
+	ELSE
+	BEGIN
+		SELECT 'No record found.' as Results
+	END
+
+========================================================CASE (to check the value of the column in database)=====================================
+
+SELECT *, IsActive = CASE Active WHEN 1 THEN 'Yes'
+				 WHEN 0 THEN 'No'
+		     ELSE 'N/A'
+END
+
+FROM PersonalDetails
+=======================================================CASE(to check searched condition)=======================================================
+
+SELECT FirstName, 'Category' = CASE WHEN Age <= 18 THEN 'Minor'
+				    WHEN Age > 18 AND Age <= 30 THEN 'Major'
+			       ELSE 'N/A'
+END
+
+FROM PersonalDetails
+
+=======================================================CASE(Order by Clause)=====================================================================
+
+SELECT * FROM PersonalDetails
+ORDER BY
+		CASE Active WHEN 1 THEN Active END ASC,
+		CASE WHEN Active = 0 THEN LastName
+	ELSE FirstName END DESC
+==========================================================CASE(to set a variable value)========================================================
+
+DECLARE @pdId int
+SET @pdId = 31
+
+DECLARE @isExists varchar(55)
+SET @isExists = CASE WHEN EXISTS (SELECT PersonalDetailsId FROM Accounts WHERE PersonalDetailsId = @pdId) THEN 'Accounts detials exists.'
+                     WHEN EXISTS (SELECT PersonalDetailsId FROM PersonalDetails WHERE PersonalDetailsId = @pdId) THEN 'Personal Details Exists but Accounts Details do not'
+		ELSE 'N/A'
+END;
+
+print @isExists

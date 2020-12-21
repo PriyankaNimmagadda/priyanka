@@ -1,0 +1,66 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+
+namespace Exam
+{
+    class Files
+    {
+
+        public void Files_Creation()
+        {
+            string fileName = string.Empty;
+            string basePath = "D:\\Priyanka_Nimmagadda\\";
+            fileName = "samplefile.txt";
+            if (!Directory.Exists(basePath))
+            {
+                Directory.CreateDirectory(basePath);
+            }
+            string completePath = (basePath + fileName);
+
+
+            StreamWriter writer = new StreamWriter(completePath);
+            string temp = string.Empty;
+            do
+            {
+                Console.WriteLine("enter the text[-1 to exit]:");
+                temp = Console.ReadLine();
+                if (temp != "-1")
+                {
+                    writer.WriteLine(temp);
+                }
+            } while (temp != "-1");
+            writer.Close();
+
+
+            StreamReader reader = new StreamReader(completePath);
+            while (!reader.EndOfStream)
+            {
+                Console.WriteLine(reader.ReadLine());
+
+            }
+            reader.Close();
+
+
+        }
+        
+        
+        
+
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

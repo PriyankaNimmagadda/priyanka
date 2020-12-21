@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>onpresskey</title>
+    Enter your name:
+    
+
+    <script type="text/javascript">
+        function CallFunction() {
+            document.getElementById("lblText").innerHTML = document.getElementById("txtName").value;
+        }</script>
+
+</head>
+<body>
+    <input type="text" name="txtName" id="txtName" onkeypress="CallFunction()" />
+    <input type="button" id="btn" name="btn" value="Submit" />
+
+    <p>The text in the textbox is:
+    <label id="lblText"></label></p>
+
+</body>
+</html>
