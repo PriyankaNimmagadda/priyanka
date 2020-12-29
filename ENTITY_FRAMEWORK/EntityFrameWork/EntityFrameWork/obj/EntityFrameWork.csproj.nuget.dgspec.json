@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWork\\EntityFrameWork.csproj": {}
+    "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWork\\EntityFrameWork.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWork\\EntityFrameWork.csproj": {
+    "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWork\\EntityFrameWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWork\\EntityFrameWork.csproj",
+        "projectUniqueName": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWork\\EntityFrameWork.csproj",
         "projectName": "EntityFrameWork",
-        "projectPath": "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWork\\EntityFrameWork.csproj",
+        "projectPath": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWork\\EntityFrameWork.csproj",
         "packagesPath": "C:\\Users\\pnimmagadda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWork\\obj\\",
+        "outputPath": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pnimmagadda\\AppData\\Roaming\\NuGet\\NuGet.Config",

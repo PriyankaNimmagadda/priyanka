@@ -1,0 +1,55 @@
+﻿@model IEnumerable<WebApplication1.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<select>
+    <option name="Id">empId</option>
+    <option name="Name">empFirstName</option>
+    <option name="LastName">empLastName</option>
+</select>
+
+<input type="text" name="txt" id="txt" />
+
+<input type="button" value="search" id="btn" name="btn">
+
+
+
+
+<h1>Index</h1>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.empFirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.empLastName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.empFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.empLastName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.empId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.empId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.empId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

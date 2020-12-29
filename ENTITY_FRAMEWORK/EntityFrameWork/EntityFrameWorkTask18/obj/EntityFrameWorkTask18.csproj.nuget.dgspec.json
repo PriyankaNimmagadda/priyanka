@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWorkTask18\\EntityFrameWorkTask18.csproj": {}
+    "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWorkTask18\\EntityFrameWorkTask18.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWorkTask18\\EntityFrameWorkTask18.csproj": {
+    "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWorkTask18\\EntityFrameWorkTask18.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWorkTask18\\EntityFrameWorkTask18.csproj",
+        "projectUniqueName": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWorkTask18\\EntityFrameWorkTask18.csproj",
         "projectName": "EntityFrameWorkTask18",
-        "projectPath": "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWorkTask18\\EntityFrameWorkTask18.csproj",
+        "projectPath": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWorkTask18\\EntityFrameWorkTask18.csproj",
         "packagesPath": "C:\\Users\\pnimmagadda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pnimmagadda\\source\\repos\\EntityFrameWork\\EntityFrameWorkTask18\\obj\\",
+        "outputPath": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ENTITY_FRAMEWORK\\EntityFrameWork\\EntityFrameWorkTask18\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pnimmagadda\\AppData\\Roaming\\NuGet\\NuGet.Config",

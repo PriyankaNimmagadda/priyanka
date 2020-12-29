@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\LINQ\\LINQ.csproj": {}
+    "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\LINQ\\LINQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\LINQ\\LINQ.csproj": {
+    "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\LINQ\\LINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\LINQ\\LINQ.csproj",
+        "projectUniqueName": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\LINQ\\LINQ.csproj",
         "projectName": "LINQ",
-        "projectPath": "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\LINQ\\LINQ.csproj",
+        "projectPath": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\LINQ\\LINQ.csproj",
         "packagesPath": "C:\\Users\\pnimmagadda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\LINQ\\obj\\",
+        "outputPath": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\LINQ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pnimmagadda\\AppData\\Roaming\\NuGet\\NuGet.Config",

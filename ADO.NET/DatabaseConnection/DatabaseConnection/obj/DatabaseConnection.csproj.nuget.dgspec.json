@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\DatabaseConnection\\DatabaseConnection.csproj": {}
+    "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\DatabaseConnection\\DatabaseConnection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\DatabaseConnection\\DatabaseConnection.csproj": {
+    "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\DatabaseConnection\\DatabaseConnection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\DatabaseConnection\\DatabaseConnection.csproj",
+        "projectUniqueName": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\DatabaseConnection\\DatabaseConnection.csproj",
         "projectName": "DatabaseConnection",
-        "projectPath": "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\DatabaseConnection\\DatabaseConnection.csproj",
+        "projectPath": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\DatabaseConnection\\DatabaseConnection.csproj",
         "packagesPath": "C:\\Users\\pnimmagadda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pnimmagadda\\source\\repos\\DatabaseConnection\\DatabaseConnection\\obj\\",
+        "outputPath": "C:\\Users\\pnimmagadda\\Desktop\\Training_21\\ADO.NET\\DatabaseConnection\\DatabaseConnection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pnimmagadda\\AppData\\Roaming\\NuGet\\NuGet.Config",
